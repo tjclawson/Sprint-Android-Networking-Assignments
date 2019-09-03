@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class OceaniaCountriesRetriever {
 
     companion object {
-        const val BASE_URL = "https://restcountries.eu/rest/v2/region/"
+        internal const val BASE_URL = "https://restcountries.eu/rest/v2/region/"
     }
 
     fun getOceaniaCountries(): Call<List<OceaniaCountry>> {
@@ -17,7 +17,7 @@ class OceaniaCountriesRetriever {
             .create()
 
         val retrofit = Retrofit.Builder()
-            .baseUrl(BASE_URL)
+            .baseUrl("https://restcountries.eu/rest/v2/region/")
             .addConverterFactory(GsonConverterFactory.create(gson))
             .build()
 
