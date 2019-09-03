@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity(), Callback<List<OceaniaCountry>> {
     override fun onResponse(call: Call<List<OceaniaCountry>>, response: Response<List<OceaniaCountry>>) {
         if (response.isSuccessful) {
             val oceaniaCountryList = response.body()
-            textview_countries.text = "" // use "oceaniaCountryList" to populate this TextView
+            textview_countries.text = oceaniaCountryList.toString()
         } else {
             val response = "response not successful; ${response.errorBody().toString()}"
             Toast.makeText(this@MainActivity, response, Toast.LENGTH_SHORT).show()

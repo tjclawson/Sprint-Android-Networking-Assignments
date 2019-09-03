@@ -17,7 +17,7 @@ class OceaniaCountriesRetriever {
             .create()
 
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://restcountries.eu/rest/v2/region/")
+            .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create(gson))
             .build()
 
