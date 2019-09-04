@@ -5,8 +5,12 @@ import android.os.Bundle
 
 class GetActivity : AppCompatActivity() {
 
+    lateinit var employeeApi: JsonPlaceHolderApi
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_get)
+
+        employeeApi = JsonPlaceHolderApi.Factory.create()
     }
 }
