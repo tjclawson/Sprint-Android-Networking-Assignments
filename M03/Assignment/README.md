@@ -36,8 +36,8 @@ B) Each of these buttons should take the user to a new Activity, so create four 
 
 For the layout of these activities, just use a standard constraintlayout with a NestedScrollview, for scrolling across the content and a textview for setting the result. 
 
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+    <?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -74,26 +74,26 @@ For the layout of these activities, just use a standard constraintlayout with a 
 
     </androidx.core.widget.NestedScrollView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 C) Make sure to add a function to check if network is connected before taking the user to any of the above activities and handle the case of network unavailability by showing a Snackbar message to the user. 
 
 ### STEP 3 - Add Dependencies & Permissions
 
 A) In AndroidManifest.xml add 
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-<uses-permission android:name="android.permission.INTERNET"/>
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+        <uses-permission android:name="android.permission.INTERNET"/>
 
 B) In app/build.gradle, add dependencies for: 
 
-ext {
+    ext {
     gsonVersion = '2.8.5'
     retrofitVersion = '2.6.1'
     materialVersion = '1.0.0'
-}
+    }
 
- // Gson
-    implementation "com.google.code.gson:gson:$gsonVersion"
+     // Gson
+     implementation "com.google.code.gson:gson:$gsonVersion"
 
     // Retrofit2
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
