@@ -1,0 +1,7 @@
+#Wed Sep 04 11:57:05 EDT 2019
+base.0=/Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex

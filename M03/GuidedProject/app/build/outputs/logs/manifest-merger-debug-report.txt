@@ -1,0 +1,199 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/0ee5091d3566be9bf81cdbde6d75ee23/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/569171d728211ccc779c33fc0f5ff6a5/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/edddc743675e964261d8ecb085c4e801/core-ktx-1.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/2812716245baebec8913341de8a1797d/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/83623c2d82090334d183b73942fe7e06/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/71e02f6db90ea87e55df8027061368d3/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/9699bd371e994f8e82d1d705efd32116/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/33de59b2c500065825345f6ad5fe92e3/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/fed37940eea71cc41718f682dc53637b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/213cd16b4d02aa52247fffd8364fe83c/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/370a7188488cf69b71c80742eab9a4d3/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/89150e037c4bba900756d0e28ebb70b5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/c34b5e1ec465092ee13ba1380416190c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/4b164036dc96abb1eb746383799af23b/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/5793151308bc311c83a73dc65f05097c/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/bc2d87893e73b2c892f0990faf6c5686/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/e4e544bcd2d3979194d079faf87f3888/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/b2db97fc81d770e903ea1d4bb3608306/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/122c7b498f19fa900a479bd6172ee1b3/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.2] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/4259edcb91be5a32a1d48bb7077343f3/core-1.0.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/71cdab9ddd96b66e3272219cf4fcda84/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/038da417ba7d75027d66dd17c0c91e58/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/c5e6b1d66c4e4580f2b084a7502a6f90/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/bd647259a6ee7e40fee173fac82ffbc7/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/2b29c5f7ada740783550e53a15c86e22/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/5baa81271704a90616cc9a57298ffdff/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/24807013a3d2ee19a7e68c2fa3a284ca/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/94aa17a1b269450896eb3de189b6df86/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/d5d908d4e960ce6fe5d6b6c5c1d60cb7/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/f51e2af2bf3a693e18f189e41b9fe53b/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/2d6b5fe4a20a08e15d01a79cf2715126/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/3e9d46cb3e3384da472001d7f11e1dba/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:3:11-52
+		INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:8:5-32:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/0ee5091d3566be9bf81cdbde6d75ee23/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/0ee5091d3566be9bf81cdbde6d75ee23/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/2812716245baebec8913341de8a1797d/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/2812716245baebec8913341de8a1797d/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.2] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/4259edcb91be5a32a1d48bb7077343f3/core-1.0.2/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.2] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/4259edcb91be5a32a1d48bb7077343f3/core-1.0.2/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/71cdab9ddd96b66e3272219cf4fcda84/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/71cdab9ddd96b66e3272219cf4fcda84/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.2] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/4259edcb91be5a32a1d48bb7077343f3/core-1.0.2/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:13:13-39
+	android:label
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:11:13-45
+	android:roundIcon
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:12:13-58
+	android:icon
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:10:13-47
+	android:allowBackup
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:9:13-39
+	android:theme
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:14:13-44
+activity#com.lambdaschool.httpoperations.HttpDeleteActivity
+ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:15:9-16:20
+	android:name
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:15:19-53
+activity#com.lambdaschool.httpoperations.HttpPutActivity
+ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:17:9-18:20
+	android:name
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:17:19-50
+activity#com.lambdaschool.httpoperations.GetPickerActivity
+ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:19:9-20:20
+	android:name
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:19:19-52
+activity#com.lambdaschool.httpoperations.HttpPostActivity
+ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:21:9-22:20
+	android:name
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:21:19-51
+activity#com.lambdaschool.httpoperations.HttpGetActivity
+ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:23:9-24:20
+	android:name
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:23:19-50
+activity#com.lambdaschool.httpoperations.MainActivity
+ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:25:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:27:17-68
+	android:name
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/0ee5091d3566be9bf81cdbde6d75ee23/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/0ee5091d3566be9bf81cdbde6d75ee23/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/569171d728211ccc779c33fc0f5ff6a5/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/569171d728211ccc779c33fc0f5ff6a5/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/edddc743675e964261d8ecb085c4e801/core-ktx-1.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/edddc743675e964261d8ecb085c4e801/core-ktx-1.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/2812716245baebec8913341de8a1797d/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/2812716245baebec8913341de8a1797d/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/83623c2d82090334d183b73942fe7e06/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/83623c2d82090334d183b73942fe7e06/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/71e02f6db90ea87e55df8027061368d3/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/71e02f6db90ea87e55df8027061368d3/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/9699bd371e994f8e82d1d705efd32116/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/9699bd371e994f8e82d1d705efd32116/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/33de59b2c500065825345f6ad5fe92e3/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/33de59b2c500065825345f6ad5fe92e3/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/fed37940eea71cc41718f682dc53637b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/fed37940eea71cc41718f682dc53637b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/213cd16b4d02aa52247fffd8364fe83c/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/213cd16b4d02aa52247fffd8364fe83c/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/370a7188488cf69b71c80742eab9a4d3/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/370a7188488cf69b71c80742eab9a4d3/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/89150e037c4bba900756d0e28ebb70b5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/89150e037c4bba900756d0e28ebb70b5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/c34b5e1ec465092ee13ba1380416190c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/c34b5e1ec465092ee13ba1380416190c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/4b164036dc96abb1eb746383799af23b/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/4b164036dc96abb1eb746383799af23b/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/5793151308bc311c83a73dc65f05097c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/5793151308bc311c83a73dc65f05097c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/bc2d87893e73b2c892f0990faf6c5686/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/bc2d87893e73b2c892f0990faf6c5686/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/e4e544bcd2d3979194d079faf87f3888/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/e4e544bcd2d3979194d079faf87f3888/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/b2db97fc81d770e903ea1d4bb3608306/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/b2db97fc81d770e903ea1d4bb3608306/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/122c7b498f19fa900a479bd6172ee1b3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/122c7b498f19fa900a479bd6172ee1b3/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/4259edcb91be5a32a1d48bb7077343f3/core-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/4259edcb91be5a32a1d48bb7077343f3/core-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/71cdab9ddd96b66e3272219cf4fcda84/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/71cdab9ddd96b66e3272219cf4fcda84/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/038da417ba7d75027d66dd17c0c91e58/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/038da417ba7d75027d66dd17c0c91e58/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/c5e6b1d66c4e4580f2b084a7502a6f90/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/c5e6b1d66c4e4580f2b084a7502a6f90/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/bd647259a6ee7e40fee173fac82ffbc7/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/bd647259a6ee7e40fee173fac82ffbc7/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/2b29c5f7ada740783550e53a15c86e22/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/2b29c5f7ada740783550e53a15c86e22/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/5baa81271704a90616cc9a57298ffdff/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/5baa81271704a90616cc9a57298ffdff/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/24807013a3d2ee19a7e68c2fa3a284ca/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/24807013a3d2ee19a7e68c2fa3a284ca/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/94aa17a1b269450896eb3de189b6df86/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/94aa17a1b269450896eb3de189b6df86/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/d5d908d4e960ce6fe5d6b6c5c1d60cb7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/d5d908d4e960ce6fe5d6b6c5c1d60cb7/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/f51e2af2bf3a693e18f189e41b9fe53b/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/f51e2af2bf3a693e18f189e41b9fe53b/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/2d6b5fe4a20a08e15d01a79cf2715126/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/2d6b5fe4a20a08e15d01a79cf2715126/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/3e9d46cb3e3384da472001d7f11e1dba/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/Tyler/.gradle/caches/transforms-2/files-2.1/3e9d46cb3e3384da472001d7f11e1dba/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Tyler/Lambda/Sprint-Android-Networking-Assignments/M03/GuidedProject/app/src/main/AndroidManifest.xml
