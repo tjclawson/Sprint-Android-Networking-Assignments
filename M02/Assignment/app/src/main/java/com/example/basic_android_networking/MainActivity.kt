@@ -2,7 +2,9 @@ package com.example.basic_android_networking
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.LinearLayout
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -21,8 +23,12 @@ class MainActivity : AppCompatActivity(), Callback<List<OceaniaCountry>> {
 
     override fun onResponse(call: Call<List<OceaniaCountry>>, response: Response<List<OceaniaCountry>>) {
         if (response.isSuccessful) {
-            val oceaniaCountryList = response.body()
-            textview_countries.text = oceaniaCountryList.toString()
+            val oceaniaCountryList = response.body() as MutableList<OceaniaCountry>
+           country_list_view.apply {
+               setHasFixedSize(false)
+               layoutManager = LinearLayoutManager(this@MainActivity)
+               adapter = CountryListAdapter(oceaniaCountryList)
+           }
         } else {
             val response = "response not successful; ${response.errorBody().toString()}"
             Toast.makeText(this@MainActivity, response, Toast.LENGTH_SHORT).show()

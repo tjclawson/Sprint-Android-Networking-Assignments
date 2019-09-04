@@ -1,10 +1,11 @@
 package com.example.basic_android_networking
 
+import android.media.Image
+
 
 data class OceaniaCountry (
-    val name: String?/*,
-    val alpha2code: String?,
+    val name: String?,
     val capital: String?,
-    val region: String?,
-    val subregion: String?*/
+    val subregion: String?,
+    val flag: String?
 )
