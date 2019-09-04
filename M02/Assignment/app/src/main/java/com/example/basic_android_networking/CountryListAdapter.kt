@@ -8,7 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.widget.AppCompatImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.country_list_item.view.*
 import org.w3c.dom.Text
@@ -78,8 +80,7 @@ class CountryListAdapter (val oceaniaCountryList: MutableList<OceaniaCountry>): 
         holder.countrySubregionView.text = "Subregion: ${country.subregion}"
         holder.countryFlagUrl.text = country.flag
         //trying to get flag to display in cardview, can't figure out how to convert SVGs to VectorDrawable
-        //val image = Picasso.get().load(country.flag) as VectorDrawable
-        //Picasso.get().load(country.flag).into(holder.countryFlagView)
+        //val image = Glide.with(MainActivity())
         //holder.countryFlagView.setImageDrawable(image)
         //holder.countryFlagView.setImageDrawable(image)
     }
