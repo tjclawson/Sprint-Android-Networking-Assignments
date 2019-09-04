@@ -22,14 +22,14 @@ class GetActivity : AppCompatActivity(), Callback<List<Employee>> {
 
         val type = intent.getStringExtra("get")
         if (type == "simple") {
-            title = "GET - Simple Request"
+            title = "SIMPLE GET"
             getEmployees()
         } else if (type == "path") {
-            title = "GET - Path Parameter: EmployeeId - 2"
+            title = "PATH GET"
             getEmployeesById("2")
         }
         else{
-            title = "GET - Query Parameter: Age - 45"
+            title = "QUERY GET"
             getEmployeesByAge("45")
         }
     }
@@ -53,7 +53,18 @@ class GetActivity : AppCompatActivity(), Callback<List<Employee>> {
 
     override fun onResponse(call: Call<List<Employee>>, response: Response<List<Employee>>) {
         response.body()?.let {
-            result.text = it.toString()
+            for(i in 0 until it.size) {
+                val name = it[i].name.toString()
+                val id = it[i].id.toString()
+                val age = it[i].age.toString()
+                val title = it[i].title.toString()
+                val employeeString = "Employee: Name - $name, ID - $id, Age - $age, Title - $title"
+                if(i == 0) {
+                    result.text = employeeString
+                } else {
+                    result.append("\n$employeeString")
+                }
+            }
         }
         progress_bar.isVisible = false
     }

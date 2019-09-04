@@ -37,7 +37,7 @@ interface JsonPlaceHolderApi {
     class Factory {
         //Can't define this in interface, so we put in class inside of interface
         companion object {
-            val BASE_URL = "https://demo8143297.mockable.io/employees"
+            val BASE_URL = "https://demo8143297.mockable.io/employees/"
             val gson = Gson()
             val logger = HttpLoggingInterceptor().apply {
                 level = HttpLoggingInterceptor.Level.BASIC

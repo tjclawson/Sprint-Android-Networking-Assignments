@@ -25,7 +25,7 @@ interface JsonPlaceHolderApi {
     @POST("employees")
     fun addNewEmployee(@Body employee: Employee): Call<Employee>
 
-    @PUT("employee")
+    @PUT("employees")
     fun updateEmployee(@Body employee: Employee): Call<Employee>
 
     @DELETE("employees/{id}")
@@ -35,7 +35,7 @@ interface JsonPlaceHolderApi {
 
         companion object {
 
-            private const val BASE_URL = "https://demo8143297.mockable.io"
+            private const val BASE_URL = "https://demo8143297.mockable.io/"
 
             fun create(): JsonPlaceHolderApi {
 
