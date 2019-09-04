@@ -115,23 +115,7 @@ Note: Make sure to specify these fields as vals and pay attention to the casing.
 ### STEP 5 - Create JsonPlaceHolderAPI interface
 A) Create an interface that has all the endpoints that you will be hitting for responses
 
-  @GET("employees/{id}")
-    fun getEmployees(@Path("id") employeeId:String): Call<List<Employee>>
-
-    @GET("employees")
-    fun getEmployees(): Call<List<Employee>>
-
-    @GET("employees")
-    fun getEmployeesForAge(@Query("age") age:String) : Call<List<Employee>>
-
-    @POST("employees")
-    fun addNewEmployee(@Body employee: Employee) : Call<Employee>
-
-    @PUT("employees")
-    fun updateEmployee(@Body employee: Employee) : Call<Employee>
-
-    @DELETE("employees/{id}")
-    fun deleteEmployee(@Path("id") employeeId:String) : Call<Void>
+    Add the endpoints here with the correct functions and parameters and return types
 
 B) Create a Factory class that will serve as a Helper class to retrieve the retrofit object. 
 
@@ -168,7 +152,7 @@ B) Create a Factory class that will serve as a Helper class to retrieve the retr
  Note the key lines here. 1) The BASE_URL, this will depend on the backend you're using.
  2) Http logging (you will see the results in logcat) 3) okhttp timeout settings and finally 4) the retrofit builder which takes in the okhttpclient, the base url and the GSON converter factory that converts json from the backend into JAVA/Kotlin objects for us.
 
-### STEP 6) Making the Network Calls
+### STEP 6 - Making the Network Calls
 
 A) Get an instance to the JsonPlaceHolderApi in your HTTPGetActivity and create a lateinit variable for it. Make the following network calls. 
 
