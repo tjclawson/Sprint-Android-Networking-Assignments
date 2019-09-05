@@ -19,7 +19,7 @@ object NetworkAdapter {
     val DELETE = "DELETE"
     val TIMEOUT = 3000
 
-    fun getBitmapFromUrl(stringUrl: String): Bitmap? {
+    fun getBitmapFromUrl(stringUrl: String, width:Int = 0, height:Int = 0): Bitmap? {
         var result: Bitmap? = null
         var stream: InputStream? = null
         var connection: HttpURLConnection? = null
@@ -34,7 +34,11 @@ object NetworkAdapter {
             if (connection.responseCode == HttpURLConnection.HTTP_OK) {
                 stream = connection.inputStream
                 if (stream != null) {
-                    result = BitmapFactory.decodeStream(stream)
+                    result = if (width > 0 && height > 0) {
+                        Bitmap.createScaledBitmap(BitmapFactory.decodeStream(stream), width, height, true)
+                    } else {
+                        BitmapFactory.decodeStream(stream)
+                    }
                 }
             }
 
