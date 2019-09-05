@@ -31,6 +31,7 @@ object NetworkAdapter {
 
             connection.connect()
 
+            //Same as tuesday project up til here, this decodes the bitmap we've downloaded
             if (connection.responseCode == HttpURLConnection.HTTP_OK) {
                 stream = connection.inputStream
                 if (stream != null) {

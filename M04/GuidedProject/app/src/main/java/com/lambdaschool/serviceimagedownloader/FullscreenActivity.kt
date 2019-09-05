@@ -53,27 +53,95 @@ class FullscreenActivity : AppCompatActivity() {
         if (AUTO_HIDE) {
             delayedHide(AUTO_HIDE_DELAY_MILLIS)
         }
-        // TODO: S04M04-4 Start service
 
         false
     }
+
+    private lateinit var imageDownloadReceiver: BroadcastReceiver
+    private lateinit var downloadManager: DownloadManager
+    private lateinit var downloadReceiver: BroadcastReceiver
+    var enqueue: Long = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_fullscreen)
 
+        myImageDownload.setOnClickListener {
+            // TODO: S04M04-4 Start service
+            val serviceIntent = Intent(this, LargeImageDownloadService::class.java)
+            this.startService(serviceIntent)
+            //myImageDownload.isEnabled = false
+        }
+
         // TODO: (Optional) S04M04-8 setupDownloadManager
+        downloadManager = getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
+
+        downloadManagerButton.setOnClickListener {
+            val request = DownloadManager.Request(Uri.parse("https://i.imgur.com/HaSmgGn.jpg"))
+            enqueue = downloadManager.enqueue(request)
+        }
+
+            val downloadIntentFilter = IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE)
+            downloadReceiver = object : BroadcastReceiver() {
+                override fun onReceive(context: Context?, intent: Intent?) {
+                    val action = intent?.action
+                    when (action) {
+                        DownloadManager.ACTION_DOWNLOAD_COMPLETE -> {
+                            val query = DownloadManager.Query()
+                            query.setFilterById(enqueue)
+                            val c = downloadManager.query(query)
+                            if (c.moveToFirst()) {
+                                val columnIndex = c.getColumnIndex(DownloadManager.COLUMN_STATUS)
+                                if (DownloadManager.STATUS_SUCCESSFUL == c.getInt(columnIndex)) {
+
+                                    val uriString = c.getString(c.getColumnIndex(DownloadManager.COLUMN_LOCAL_URI))
+                                    val uriFileDescriptor = contentResolver.openFileDescriptor(Uri.parse(uriString), "r")
+
+                                    val width = fullscreen_content.width
+                                    val height = fullscreen_content.height
+                                    fullscreen_content.setImageBitmap(decodeSampledBitmapFileDescriptor(uriFileDescriptor, width, height));
+                                }
+                            }
+                        }
+                        DownloadManager.ACTION_NOTIFICATION_CLICKED -> {
+                        }
+                        DownloadManager.ACTION_VIEW_DOWNLOADS -> {
+                        }
+                    }
+                }
+            }
+
+            registerReceiver(downloadReceiver, downloadIntentFilter)
+
+            showDownloadsButton.setOnClickListener {
+                val i = Intent()
+                i.action = DownloadManager.ACTION_VIEW_DOWNLOADS
+                startActivity(i)
+            }
 
         mVisible = true
         mControlsView = findViewById(R.id.fullscreen_content_controls)
         mContentView = findViewById(R.id.fullscreen_content)
 
         // TODO: S04M04-5 Create BroadcastReceiver
+        imageDownloadReceiver = object: BroadcastReceiver() {
+            override fun onReceive(context: Context?, intent: Intent?) {
+                //intent auto becomes parcellable due to bitmap, getting intent from largeimagedownloader
+                if(intent?.action == LargeImageDownloadService.FILE_DOWNLOADED_ACTION) {
+                    val bitmap = intent.getParcelableExtra<Bitmap>(LargeImageDownloadService.DOWNLOADED_IMAGE)
+                    fullscreen_content.setImageBitmap(bitmap)
+                }
+            }
+        }
 
         // TODO: S04M04-6 Add IntentFilter
+        val intentFilter = IntentFilter().apply {
+            addAction(LargeImageDownloadService.FILE_DOWNLOADED_ACTION)
+        }
 
         // TODO: S04M04-7 Register receiver
+        LocalBroadcastManager.getInstance(this).registerReceiver(imageDownloadReceiver, intentFilter)
 
         // Set up the user interaction to manually show or hide the system UI.
         mContentView?.setOnClickListener { toggle() }
@@ -158,6 +226,7 @@ class FullscreenActivity : AppCompatActivity() {
         override fun onDestroy() {
             super.onDestroy()
             // TODO S04M04-10 Unregister receivers
+            unregisterReceiver(imageDownloadReceiver)
         }
 
         fun showDownload(view: View) {
