@@ -1,4 +1,3 @@
-
 # Services and Broadcasts
 Coding Assignment: Sprint 4, Module 4
 Create an Android app that downloads a large image and puts it into an ImageView
@@ -63,5 +62,6 @@ D) Register your BroadcastReceiver in an appropriate lifecycle callback in your 
 E) Unregister your BroadcastReceiver in the matching lifecycle callback (e.g., register in onResume, unregister in onPause)
 
 ### Stretch goals
-A) Try using an IntentService instead of a Service. You can add this as a separate class and call it in your Activity instead of your earlier created Service. What changes?
-B) Try using DownloadManager to download the image.
+A) Try adding more ImageViews and downloading multiple images.
+B) Try using an IntentService instead of a Service. You can add this as a separate class and call it in your Activity instead of your earlier created Service. What changes?
+C) Try using DownloadManager to download the image.
