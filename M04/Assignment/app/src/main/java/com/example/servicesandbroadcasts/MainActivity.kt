@@ -9,7 +9,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.image_layout.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private lateinit var imageDownloadReceiver: BroadcastReceiver
+    val imageList = mutableListOf<Bitmap>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,8 +28,8 @@ class MainActivity : AppCompatActivity() {
 
         button_download.setOnClickListener {
             val serviceIntent = Intent(this, ImageDownloadService::class.java)
-            serviceIntent.putExtra(ImageDownloadService.BW, image_view.width)
-            serviceIntent.putExtra(ImageDownloadService.BH, image_view.height)
+            serviceIntent.putExtra(ImageDownloadService.BW, bitmap_list_view.width)
+            serviceIntent.putExtra(ImageDownloadService.BH, 600)
             this.startService(serviceIntent)
         }
 
@@ -34,7 +37,13 @@ class MainActivity : AppCompatActivity() {
             override fun onReceive(context: Context?, intent: Intent?) {
                 if(intent?.action == ImageDownloadService.FDA) {
                     val bitmap = intent.getParcelableExtra<Bitmap>(ImageDownloadService.DI)
-                    image_view.setImageBitmap(bitmap)
+                    imageList.add(bitmap)
+                    bitmap_list_view.apply {
+                        setHasFixedSize(false)
+                        layoutManager = LinearLayoutManager(this@MainActivity)
+                        adapter = ImageAdapter(imageList)
+                    }
+
                 }
             }
         }
@@ -48,8 +57,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onDestroy() {
-        super.onDestroy()
+
         unregisterReceiver(imageDownloadReceiver)
         Log.i(TAG, "receiver unregistered")
+        super.onDestroy()
     }
 }
